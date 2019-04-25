@@ -6,17 +6,18 @@
     <description>Recent content on Tech Knowledge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 20 Mar 2019 11:53:49 -0700</lastBuildDate>
     
 	<atom:link href="https://jaeboston.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title></title>
+      <title>How to update this Note site</title>
       <link>https://jaeboston.github.io/github/hugonotes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Mar 2019 11:53:49 -0700</pubDate>
       
       <guid>https://jaeboston.github.io/github/hugonotes/</guid>
-      <description> How to update the notes  go to the hugo repository create/update the pages in the site repository check-in the update by commit and push hugo -d ../github.io/ go to the github.io respository check-in the updated html codes view the site  </description>
+      <description>How to update the notes  go to the hugo repository create/update .md file in the site repository add the following content on the top of the file   --- title: &amp;quot;How to update this Note site&amp;quot; author: &amp;quot;Jae Song&amp;quot; date: 2019-03-20T11:53:49-07:00 description: &amp;quot;How to update this Note site&amp;quot; type: technical_note or page draft: false ---   view the site before saving  hugo server -D localhost:1313  check-in the update by commit and push publish the web site to the github.</description>
     </item>
     
     <item>

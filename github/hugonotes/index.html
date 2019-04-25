@@ -16,23 +16,23 @@
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta property="og:title" content="Tech Knowledge" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://jaeboston.github.io/" />
-
-<meta property="og:updated_time" content="2019-03-20T11:53:49-07:00"/>
+<meta property="og:title" content="How to update this Note site" />
+<meta property="og:description" content="How to update this Note site" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jaeboston.github.io/github/hugonotes/" />
+<meta property="article:published_time" content="2019-03-20T11:53:49-07:00"/>
+<meta property="article:modified_time" content="2019-03-20T11:53:49-07:00"/>
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tech Knowledge"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="How to update this Note site"/>
+<meta name="twitter:description" content="How to update this Note site"/>
 <meta name="generator" content="Hugo 0.55.3" /> 
     
     
     
     
 
-    <title>Tech Knowledge</title>
+    <title>How to update this Note site</title>
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
@@ -43,7 +43,7 @@
     <link href="https://jaeboston.github.io/css/syntax.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli:400,500,700" rel="stylesheet">
         
-    <link href="https://jaeboston.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Tech Knowledge" /> 
+    <link href="" rel="alternate" type="application/rss+xml" title="Tech Knowledge" /> 
     
     <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
@@ -116,63 +116,50 @@ MathJax.Hub.Config({
             <div class="col-sm-12">
 
                 
-<main>
-    <div class="homepage">
-        <div class="row">
-            <div class="col-sm-12">
-                <h1>
-                    <span class="minor_line">Technical Notes</span>
-                    <br>
-                    <span class="major_line"></span>
-                    <br>
-                    <span class="minor_line"></span>
-                </h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 blurb">
-                <p>
-                    <a href="http://jaeboston.github.io"></a>
-                    
-            </div>
-        </div>
+<article>
+  <div class="page">
+    <div class="content">
+      
 
-        <div class="row" id="github">
-            <div class="col-sm-12">
-                <h3 class="category_header">Github</h3>
-            </div>
-        </div>
+<h1 id="how-to-update-the-notes">How to update the notes</h1>
 
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="card">
-                    <h4 class="card-header">This notes</h4>
-                    <div class="card-body">
-                        <ul>
-                            
-                            <li>
-                                <a href="https://jaeboston.github.io/github/hugonotes/">How to update this Note site</a>
-                            </li>
-                            
-                        </ul>
-                        <ul>
-                            
-                            <li>
-                                <a href="https://jaeboston.github.io/python/test/"></a>
-                            </li>
-                            
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+<ol>
+<li>go to the hugo repository</li>
+<li>create/update .md file in the site repository</li>
+<li>add the following content on the top of the file</li>
+</ol>
 
-        
-        
+<pre><code>  ---
+  title: &quot;How to update this Note site&quot;
+  author: &quot;Jae Song&quot;
+  date: 2019-03-20T11:53:49-07:00
+  description: &quot;How to update this Note site&quot;
+  type: technical_note or page
+  draft: false
+  ---
+</code></pre>
+
+<ul>
+<li>view the site before saving
+
+<ul>
+<li><code>hugo server -D</code></li>
+<li>localhost:1313</li>
+</ul></li>
+<li>check-in the update by commit and push</li>
+<li>publish the web site to the github.io repository
+
+<ul>
+<li><code>hugo -d ../github.io/</code></li>
+</ul></li>
+<li>go to the github.io respository</li>
+<li>check-in the updated html codes</li>
+<li>view the site</li>
+</ul>
 
     </div>
-
-</main>
+  </div>
+</article>
 
 
             </div>
