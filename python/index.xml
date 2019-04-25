@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pythons on Tech Knowledge</title>
-    <link>http://jaeboston.github.io/python/</link>
+    <link>https://jaeboston.github.io/python/</link>
     <description>Recent content in Pythons on Tech Knowledge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://jaeboston.github.io/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jaeboston.github.io/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://jaeboston.github.io/python/test/</link>
+      <link>https://jaeboston.github.io/python/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jaeboston.github.io/python/test/</guid>
+      <guid>https://jaeboston.github.io/python/test/</guid>
       <description> This is test page </description>
     </item>
     
