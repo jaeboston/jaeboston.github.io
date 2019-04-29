@@ -13,10 +13,10 @@
     
     <item>
       <title>How to unstack dataframe</title>
-      <link>https://jaeboston.github.io/python/data_preparation/unstacking_dataframe/</link>
+      <link>https://jaeboston.github.io/python/notyet/unstacking_dataframe/</link>
       <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jaeboston.github.io/python/data_preparation/unstacking_dataframe/</guid>
+      <guid>https://jaeboston.github.io/python/notyet/unstacking_dataframe/</guid>
       <description>Unstacking dataframe The excel file is located in S:/Research/TrendStrategies/PriceDatabase/EQUITY_ETF_SCR.xlsx import pandas as pddf = pd.read_excel(&amp;#34;S:/.../EQUITY_ETF_SCR.xlsx&amp;#34;,sheet_name=&amp;#39;Sheet1&amp;#39;)df.columns Index([&#39;ID&#39;, &#39;DATE&#39;, &#39;COVERAGE_TCS&#39;, &#39;COVERAGE_TCS_ADJ&#39;, &#39;COVERAGE_PCF_REL&#39;, &#39;COVERAGE_PCF_ADJ_REL&#39;, &#39;TCS_Final&#39;, &#39;PCF_Final&#39;, &#39;TCS_ADJ_Final&#39;, &#39;PCF_ADJ_Final&#39;], dtype=&#39;object&#39;)  ID2keep = [&amp;#39;XLC&amp;#39;,&amp;#39;XLY&amp;#39;,&amp;#39;XLP&amp;#39;,&amp;#39;XLE&amp;#39;,&amp;#39;XLF&amp;#39;,&amp;#39;XLV&amp;#39;,&amp;#39;XLI&amp;#39;,&amp;#39;XLB&amp;#39;,&amp;#39;XLRE&amp;#39;,&amp;#39;XLK&amp;#39;,&amp;#39;XLU&amp;#39;]df.head()  .dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }    ID DATE COVERAGE_TCS COVERAGE_TCS_ADJ COVERAGE_PCF_REL COVERAGE_PCF_ADJ_REL TCS_Final PCF_Final TCS_ADJ_Final PCF_ADJ_Final     0 IDU 2018-01-31 0.</description>
     </item>
     
