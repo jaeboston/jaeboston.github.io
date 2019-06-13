@@ -3,14 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jaeboston.github.io/python/data_preparation/unstacking_dataframe/</loc>
-    <lastmod>2019-04-29T00:00:00+00:00</lastmod>
+    <loc>https://jaeboston.github.io/</loc>
+    <lastmod>2019-06-13T11:53:49-07:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jaeboston.github.io/</loc>
+    <loc>https://jaeboston.github.io/python/env/zipline_installation/</loc>
+    <lastmod>2019-06-13T11:53:49-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaeboston.github.io/python/data_preparation/unstacking_dataframe/</loc>
     <lastmod>2019-04-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

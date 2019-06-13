@@ -6,10 +6,24 @@
     <description>Recent content on Tech Knowledge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Jun 2019 11:53:49 -0700</lastBuildDate>
     
 	<atom:link href="https://jaeboston.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Zipline installation</title>
+      <link>https://jaeboston.github.io/python/env/zipline_installation/</link>
+      <pubDate>Thu, 13 Jun 2019 11:53:49 -0700</pubDate>
+      
+      <guid>https://jaeboston.github.io/python/env/zipline_installation/</guid>
+      <description>Windows Install Anaconda 3 See the Anaconda Navigator Environments tab to see all the existing Python environment
+See the existing env conda info &amp;ndash;envs
+Create a new environment with python 3.5.6 conda create -n py35_zipline python=3.5
+Activate the new evn source activate py35_zipline or Use Anaconda Navigator -&amp;gt; Environments then choose &amp;ldquo;Open Terminal&amp;rdquo; option
+Use conda to install Zipline (py35_zipline) conda install -c Quantopian zipline
+Now need to install cvxpy==1.</description>
+    </item>
     
     <item>
       <title>How to unstack dataframe</title>
@@ -47,7 +61,7 @@ Most of python/notebooks are in the pythonWS folder</description>
       <pubDate>Wed, 20 Mar 2019 11:53:49 -0700</pubDate>
       
       <guid>https://jaeboston.github.io/github/hugonotes/</guid>
-      <description>How to update the notes  Go to the hugo repository Create/update .md file in the site repository Or using make.ipynb notebook located in the top level of the hugo repository, convert a notebook to .md file Add the following content on the top of the file   --- title: &amp;quot;How to update this Note site&amp;quot; author: &amp;quot;Jae Song&amp;quot; date: 2019-03-20T11:53:49-07:00 description: &amp;quot;How to update this Note site&amp;quot; type: technical_note or page draft: false ---   Update the index.</description>
+      <description>How to update the notes  Go to the hugo repository (websitesWS/hugo.notes) Create/update .md file in the site repository Or using make.ipynb notebook located in the top level of the hugo repository, convert a notebook to .md file Add the following content on the top of the file   --- title: &amp;quot;How to update this Note site&amp;quot; author: &amp;quot;Jae Song&amp;quot; date: 2019-03-20T11:53:49-07:00 description: &amp;quot;How to update this Note site&amp;quot; type: technical_note or page draft: false ---   Update the index.</description>
     </item>
     
   </channel>
