@@ -56,6 +56,15 @@ Most of python/notebooks are in the pythonWS folder</description>
     </item>
     
     <item>
+      <title>Algorithm and Datastructure</title>
+      <link>https://jaeboston.github.io/python/algorithm/algo/</link>
+      <pubDate>Wed, 20 Mar 2019 11:53:49 -0700</pubDate>
+      
+      <guid>https://jaeboston.github.io/python/algorithm/algo/</guid>
+      <description> Recursion </description>
+    </item>
+    
+    <item>
       <title>How to update this Note site</title>
       <link>https://jaeboston.github.io/github/hugonotes/</link>
       <pubDate>Wed, 20 Mar 2019 11:53:49 -0700</pubDate>
