@@ -6,12 +6,17 @@
     <description>Recent content on Tech Knowledge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+<<<<<<< HEAD
     <lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
+=======
+    <lastBuildDate>Wed, 31 Jul 2019 00:00:00 +0000</lastBuildDate>
+>>>>>>> 3f7c9ade9c907a6bb7ec65c128647e746ed3422a
     
 	<atom:link href="https://jaeboston.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+<<<<<<< HEAD
       <title>Github howTos</title>
       <link>https://jaeboston.github.io/github/github/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
@@ -30,6 +35,8 @@
     </item>
     
     <item>
+=======
+>>>>>>> 3f7c9ade9c907a6bb7ec65c128647e746ed3422a
       <title>Momentum Strategy</title>
       <link>https://jaeboston.github.io/python/quant/momentum/</link>
       <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
@@ -55,7 +62,12 @@
       <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://jaeboston.github.io/github/git/</guid>
+<<<<<<< HEAD
       <description>To create a new repository for a new project git init &amp;lt;project-name&amp;gt;  
+=======
+      <description>git BASIC commands  
+To create a new repository for a new project git init &amp;lt;project-name&amp;gt;  
+>>>>>>> 3f7c9ade9c907a6bb7ec65c128647e746ed3422a
 To create a new repository for an existing project cd &amp;lt;project-name&amp;gt; git init  
 To create a copy of an existing repository git clone   touch .gitignore and choose extension not to check in git add git commit -m git push origin master git checkout filename ( before filename was added and bring in the existing copy) git rm (remove added files )</description>
     </item>
