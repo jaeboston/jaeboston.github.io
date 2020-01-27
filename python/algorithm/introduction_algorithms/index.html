@@ -16,16 +16,16 @@
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta property="og:title" content="Converting Datetime and String" />
-<meta property="og:description" content="Convert string to datetime" />
+<meta property="og:title" content="Course note for MIT 6.006 Introduction to Algorithms" />
+<meta property="og:description" content="MIT 6.006 Introduction to Algorithms" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://jaeboston.github.io/python/data_preparation/data_wrangling/" />
-<meta property="article:published_time" content="2019-04-25T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2019-04-25T00:00:00&#43;00:00"/>
+<meta property="og:url" content="https://jaeboston.github.io/python/algorithm/introduction_algorithms/" />
+<meta property="article:published_time" content="2019-07-17T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-07-17T00:00:00&#43;00:00"/>
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Converting Datetime and String"/>
-<meta name="twitter:description" content="Convert string to datetime"/>
+<meta name="twitter:title" content="Course note for MIT 6.006 Introduction to Algorithms"/>
+<meta name="twitter:description" content="MIT 6.006 Introduction to Algorithms"/>
 <meta name="generator" content="Hugo 0.55.3" /> 
     
     
@@ -33,20 +33,20 @@
 {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
-  "headline": "Converting Datetime and String",
-  "url": "https:\/\/jaeboston.github.io\/python\/data_preparation\/data_wrangling\/",
-  "wordCount": "0",
-  "datePublished": "2019-04-25T00:00:00\x2b00:00",
-  "dateModified": "2019-04-25T00:00:00\x2b00:00",
+  "headline": "Course note for MIT 6.006 Introduction to Algorithms",
+  "url": "https:\/\/jaeboston.github.io\/python\/algorithm\/introduction_algorithms\/",
+  "wordCount": "101",
+  "datePublished": "2019-07-17T00:00:00\x2b00:00",
+  "dateModified": "2019-07-17T00:00:00\x2b00:00",
   "author": {
     "@type": "Person",
     "name": "Jae Song"
   },
-  "description": "Convert string to datetime"
+  "description": "MIT 6.006 Introduction to Algorithms"
 }
 </script> 
 
-    <title>Converting Datetime and String</title>
+    <title>Course note for MIT 6.006 Introduction to Algorithms</title>
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
@@ -137,13 +137,40 @@ MathJax.Hub.Config({
   <header>
       <div class="alert alert-warning flashcard_ad" role="alert">
       </div>
-    <h1 class="technical_note_title">Converting Datetime and String</h1>
+    <h1 class="technical_note_title">Course note for MIT 6.006 Introduction to Algorithms</h1>
     <div class="technical_note_date">
-      <time datetime=" 2019-04-25T00:00:00Z "> 25 Apr 2019</time>
+      <time datetime=" 2019-07-17T00:00:00Z "> 17 Jul 2019</time>
     </div>
   </header>
   <div class="content">
   
+
+<h1 id="lecture-6-avl-trees">Lecture 6 AVL Trees</h1>
+
+<p>Height of a node
+=max(height of left child, height of right child) + 1</p>
+
+<p>AVL Trees:
+requires heights of left and right children of every node to differ by at most +-1</p>
+
+<p>claim#1: AVL trees are balanced
+height is always log(n)
+worst case: is when right subtree has height one more than left for every node.
+N(h)=min. number of node in a AVL tree of height h</p>
+
+<p>N(h) = 1 + N(h-1)+N(h-2)
+N(h) &gt; 1+ 2N(h-2)
+h &lt; 2logN</p>
+
+<p>AVL insert</p>
+
+<ol>
+<li>simple BST insert</li>
+<li>fix AVL property</li>
+</ol>
+
+<p>Rotation technique can be used to to fix AVL property</p>
+
 </div>
   <aside>
       <div class="bug_reporting">

@@ -3,9 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jaeboston.github.io/github/github/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jaeboston.github.io/</loc>
-    <lastmod>2019-06-13T11:53:49-07:00</lastmod>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jaeboston.github.io/cloud/azure/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaeboston.github.io/python/quant/momentum/</loc>
+    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaeboston.github.io/cloud/gcp/</loc>
+    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaeboston.github.io/github/git/</loc>
+    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaeboston.github.io/python/nlp/</loc>
+    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaeboston.github.io/python/algorithm/introduction_algorithms/</loc>
+    <lastmod>2019-07-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jaeboston.github.io/python/algorithm/algo/</loc>
+    <lastmod>2019-06-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -26,11 +66,6 @@
   <url>
     <loc>https://jaeboston.github.io/python/env/development_environment/</loc>
     <lastmod>2019-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jaeboston.github.io/python/algorithm/algo/</loc>
-    <lastmod>2019-03-20T11:53:49-07:00</lastmod>
   </url>
   
   <url>

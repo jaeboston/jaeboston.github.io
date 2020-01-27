@@ -16,23 +16,23 @@
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta property="og:title" content="How to update this Note site" />
-<meta property="og:description" content="How to update this Note site" />
+<meta property="og:title" content="How to use git" />
+<meta property="og:description" content="various git commnad with syntax" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://jaeboston.github.io/github/hugonotes/" />
-<meta property="article:published_time" content="2019-03-20T11:53:49-07:00"/>
-<meta property="article:modified_time" content="2019-03-20T11:53:49-07:00"/>
+<meta property="og:url" content="https://jaeboston.github.io/github/git/" />
+<meta property="article:published_time" content="2019-07-23T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-07-23T00:00:00&#43;00:00"/>
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="How to update this Note site"/>
-<meta name="twitter:description" content="How to update this Note site"/>
+<meta name="twitter:title" content="How to use git"/>
+<meta name="twitter:description" content="various git commnad with syntax"/>
 <meta name="generator" content="Hugo 0.55.3" /> 
     
     
     
     
 
-    <title>How to update this Note site</title>
+    <title>How to use git</title>
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
@@ -121,44 +121,192 @@ MathJax.Hub.Config({
     <div class="content">
       
 
-<h1 id="how-to-update-the-notes">How to update the notes</h1>
+<h5 id="to-create-a-new-repository-for-a-new-project">To create a new repository for a new project</h5>
 
-<ol>
-<li>Go to the hugo repository (websitesWS/hugo.notes)</li>
-<li>Create/update .md file in the site repository</li>
-<li>Or using make.ipynb notebook located in the top level of the hugo repository, convert a notebook to .md file</li>
-<li>Add the following content on the top of the file</li>
-</ol>
+<pre><code>git init &lt;project-name&gt;
+</code></pre>
 
-<pre><code>  ---
-  title: &quot;How to update this Note site&quot;
-  author: &quot;Jae Song&quot;
-  date: 2019-03-20T11:53:49-07:00
-  description: &quot;How to update this Note site&quot;
-  type: technical_note or page
-  draft: false
-  ---
+<p><br/></p>
+
+<h5 id="to-create-a-new-repository-for-an-existing-project">To create a new repository for an existing project</h5>
+
+<pre><code>cd &lt;project-name&gt;
+git init
+</code></pre>
+
+<p><br/></p>
+
+<h5 id="to-create-a-copy-of-an-existing-repository">To create a copy of an existing repository</h5>
+
+<pre><code>git clone
 </code></pre>
 
 <ol>
-<li>Update the index.html in the themes/berbera/layouts directory
-(usually don&rsquo;t need to update the index.html file unless you created a new directory in the content folder)</li>
-<li>View the site before saving
-
-<ul>
-<li><code>hugo server -D</code></li>
-<li>localhost:1313</li>
-</ul></li>
-<li>Check-in the update by commit and push</li>
-<li>Publish the web site to the github.io repository
-
-<ul>
-<li><code>hugo -d ../github.io/</code></li>
-</ul></li>
-<li>Go to the github.io respository</li>
-<li>Check-in the updated html codes</li>
-<li>View the site</li>
+<li>touch .gitignore and choose extension not to check in</li>
+<li>git add</li>
+<li>git commit -m</li>
+<li>git push origin master</li>
+<li>git checkout filename ( before filename was added and bring in the existing copy)</li>
+<li>git rm (remove added files )</li>
 </ol>
+
+<p><br/>
+<br/></p>
+
+<h2 id="branching-related-commands">Branching related commands</h2>
+
+<p><br/>
+<br/></p>
+
+<h5 id="to-list-existing-branch">To list existing branch:</h5>
+
+<pre><code>git branch
+</code></pre>
+
+<h5 id="to-create-a-new-branch">To create a new branch:</h5>
+
+<pre><code>git branch &lt;branchname&gt;
+</code></pre>
+
+<h5 id="go-the-the-branch-you-want-to-work">Go the the branch you want to work</h5>
+
+<p>(How can I switch from one branch to another? )</p>
+
+<pre><code>git checkout &lt;branchname&gt;
+</code></pre>
+
+<p>git won&rsquo;t let you do this unless all files are committed</p>
+
+<h5 id="to-create-a-new-branch-then-checkout-to-the-branch">to create a new branch then checkout to the branch</h5>
+
+<pre><code>git checkout -b &lt;branchname&gt;
+</code></pre>
+
+<p>the content of the new branch is same as the previous branch</p>
+
+<h5 id="to-compare-branches">To compare branches</h5>
+
+<pre><code>git diff branch-1..branch-2
+</code></pre>
+
+<p><br/></p>
+
+<h5 id="merging-check-the-branch-which-will-stay-destination">Merging: check the branch which will stay (destination)</h5>
+
+<pre><code>git checkout &lt;master&gt;
+git merge &lt;source_branch&gt; &lt;destination_branch(master)&gt;
+</code></pre>
+
+<h5 id="delete-a-branch-after-merging">Delete a branch after merging</h5>
+
+<pre><code>git branch -d xxx
+</code></pre>
+
+<h5 id="delete-local-branch-to-force-it-use-d">Delete local branch (to force it use -D)</h5>
+
+<pre><code>git branch -d branch_name
+</code></pre>
+
+<h5 id="resolve-conflict-on-merging">Resolve conflict on merging</h5>
+
+<p>after merging error,</p>
+
+<pre><code>git status
+</code></pre>
+
+<p>it will display the file name with conflict
+Edit the file to resolve the conflict</p>
+
+<pre><code>git add thefilename
+git commit -m &quot;message&quot;
+</code></pre>
+
+<h5 id="undo-git-add-files-are-already-added">Undo git add (files are already added)</h5>
+
+<pre><code>git reset HEAD *
+</code></pre>
+
+<h5 id="renaming">Renaming</h5>
+
+<p>Assuming you’d like to change a folder’s name from oldfolder to newfolder</p>
+
+<p>git mv oldfolder newfolder</p>
+
+<h5 id="remove-delete-a-file-which-is-already-committed">Remove (delete ) a file which is already committed</h5>
+
+<pre><code>git rm filename
+</code></pre>
+
+<p>it stages the file then needs to be comitted</p>
+
+<p>If there’s already a newfolder in your repo and you’d like to overwrite it use –force</p>
+
+<pre><code>git mv -f oldfolder newfolder
+</code></pre>
+
+<p>Do not forget: you have to add the changes to the index and commit them after renaming with git mv.</p>
+
+<pre><code>git add -u newfolder
+git commit -m &quot;changed the foldername whaddup&quot;
+</code></pre>
+
+<h5 id="set-up-remote-repository">set up remote repository</h5>
+
+<pre><code>git remote add origin remote_repo_url
+</code></pre>
+
+<h5 id="view-existing-remote-repository">view existing remote repository</h5>
+
+<pre><code>git remote -v
+</code></pre>
+
+<h5 id="cloneing-existing-reposiroty">Cloneing existing reposiroty</h5>
+
+<pre><code>git clone https://github.com/coreui/coreui-free-bootstrap-admin-template.git
+</code></pre>
+
+<h5 id="configure-global-system-local-name">configure &ndash;global (&ndash;system, &ndash;local) name</h5>
+
+<pre><code>git config --global user.name jae
+git config --list --global
+</code></pre>
+
+<h5 id="delete-un-staged-changes-not-added">delete un-staged changes (not added)</h5>
+
+<pre><code>git checkout -- filename
+</code></pre>
+
+<h5 id="delete-staged-changed-already-added">delete staged changed (already added)</h5>
+
+<pre><code>git reset HEAD filename (will un-stage the file) / dirname (will un-state the files in the dir)
+git checkout -- filename (will delete the un-staged file) / . (will delete all un-staged files in the current directory)
+</code></pre>
+
+<h5 id="to-compare-modified-file-with-the-previous-version">To compare modified file with the previous version</h5>
+
+<pre><code>git diff filename
+</code></pre>
+
+<h5 id="to-tag-a-version-number">To tag a version number</h5>
+
+<pre><code>git tag -a v1.2019.07.23 -m &quot;tagging a version number&quot;
+</code></pre>
+
+<p><br/>
+<br/></p>
+
+<h2 id="configuration-related">Configuration related</h2>
+
+<p><br/>
+<br/></p>
+
+<h5 id="eol-end-of-line">EOL (end of line)</h5>
+
+<p>Add EOL for windows not for linux
+<br/></p>
+
+<pre><code>git config --global core.autocrlf true
+</code></pre>
 
     </div>
   </div>

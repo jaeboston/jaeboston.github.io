@@ -6,10 +6,89 @@
     <description>Recent content on Tech Knowledge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Jun 2019 11:53:49 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jaeboston.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Github howTos</title>
+      <link>https://jaeboston.github.io/github/github/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jaeboston.github.io/github/github/</guid>
+      <description>HOW TO do pull request How to do pull request</description>
+    </item>
+    
+    <item>
+      <title>Azure resources</title>
+      <link>https://jaeboston.github.io/cloud/azure/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jaeboston.github.io/cloud/azure/</guid>
+      <description> How to use Azure Active Directory to a Web APP </description>
+    </item>
+    
+    <item>
+      <title>Momentum Strategy</title>
+      <link>https://jaeboston.github.io/python/quant/momentum/</link>
+      <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jaeboston.github.io/python/quant/momentum/</guid>
+      <description>Momentum  Compute the mean of the return series of securities if the mean is greater than zero that&amp;rsquo;s good.
+ Use t-test to the mean is staticstically significant or not t-test = mean of x / SE This is called p-value SE(standard error of the mean) = std/sqrt(n)
+  let&amp;rsquo;s say t-test was 1.6 which corresponds to 0.053 of p-value for the one-tail hypothsis test. Using alpha = 0.</description>
+    </item>
+    
+    <item>
+      <title>Google Cloud Computing courses/study note</title>
+      <link>https://jaeboston.github.io/cloud/gcp/</link>
+      <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jaeboston.github.io/cloud/gcp/</guid>
+      <description>GCP Project  GCP is project based. All Google Cloud Platform resources are associated with a project. Every resources in GCP are organized by a project level. Can&amp;rsquo;t chage project ID  IAM  Policies are a union of those applied on resource itself and those inherited from higher levels in the hierarchy. If a parent policy is less restrictive, it overrides a more restrictive policy applied on the resource.</description>
+    </item>
+    
+    <item>
+      <title>How to use git</title>
+      <link>https://jaeboston.github.io/github/git/</link>
+      <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jaeboston.github.io/github/git/</guid>
+      <description>To create a new repository for a new project git init &amp;lt;project-name&amp;gt;  
+To create a new repository for an existing project cd &amp;lt;project-name&amp;gt; git init  
+To create a copy of an existing repository git clone   touch .gitignore and choose extension not to check in git add git commit -m git push origin master git checkout filename ( before filename was added and bring in the existing copy) git rm (remove added files )</description>
+    </item>
+    
+    <item>
+      <title>NLP</title>
+      <link>https://jaeboston.github.io/python/nlp/</link>
+      <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jaeboston.github.io/python/nlp/</guid>
+      <description> How to to word count using count function words is string
+count_dict = dict{} for word in words: count_dict[word] = words.count(word)  NLP  Text Processing Feature Extraction Modeling  </description>
+    </item>
+    
+    <item>
+      <title>Course note for MIT 6.006 Introduction to Algorithms</title>
+      <link>https://jaeboston.github.io/python/algorithm/introduction_algorithms/</link>
+      <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jaeboston.github.io/python/algorithm/introduction_algorithms/</guid>
+      <description>Lecture 6 AVL Trees Height of a node =max(height of left child, height of right child) + 1
+AVL Trees: requires heights of left and right children of every node to differ by at most +-1
+claim#1: AVL trees are balanced height is always log(n) worst case: is when right subtree has height one more than left for every node. N(h)=min. number of node in a AVL tree of height h</description>
+    </item>
+    
+    <item>
+      <title>Algorithm and Datastructure</title>
+      <link>https://jaeboston.github.io/python/algorithm/algo/</link>
+      <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jaeboston.github.io/python/algorithm/algo/</guid>
+      <description>Data Structure  Lists array is a implementation of a List array has index to indicate place holder; array&amp;rsquo;s insertion could take O(n) worst case because of shifting index to insert array&amp;rsquo;s search could take O(1) because of index  Array vs List  Python has List object which works like dynamic Array similar to ArrayList in Java but List in Python can contain different data types. Python has Array object.</description>
+    </item>
     
     <item>
       <title>Zipline installation</title>
@@ -53,15 +132,6 @@ Now need to install cvxpy==1.</description>
 The base is installed in \anaconda3 (python 3.7.3) and the others are installed in ~\anaconda\envs
 Access Python Jupyter Notebook starting by
 Most of python/notebooks are in the pythonWS folder</description>
-    </item>
-    
-    <item>
-      <title>Algorithm and Datastructure</title>
-      <link>https://jaeboston.github.io/python/algorithm/algo/</link>
-      <pubDate>Wed, 20 Mar 2019 11:53:49 -0700</pubDate>
-      
-      <guid>https://jaeboston.github.io/python/algorithm/algo/</guid>
-      <description> Recursion </description>
     </item>
     
     <item>
